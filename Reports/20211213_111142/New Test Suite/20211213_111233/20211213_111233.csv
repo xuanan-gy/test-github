@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2021-12-13 11:13:48,2021-12-13 11:13:52,4.942s,PASSED
+,,,,,,,
+Test Cases/Find user by ID,,,,2021-12-13 11:13:48,2021-12-13 11:13:52,4.677s,PASSED
+"id = sample.Common.createNewUser(age, username, password, gender, 200)",,,,2021-12-13 11:13:48,2021-12-13 11:13:51,2.647s,PASSED
+"sample.Common.findUserById(id, age, username, password, gender, 200)",,,,2021-12-13 11:13:51,2021-12-13 11:13:52,1.439s,PASSED

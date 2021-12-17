@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="web service test suite collection" time="31.643" tests="3" failures="0" errors="0">
+   <testsuite name="web-service-tests - All Test Cases" tests="2" failures="0" errors="0" time="6.846" skipped="0" timestamp="2021-12-15 14:04:03" hostname="ly.doan - 192.168.1.2" id="Test Suites/Folder B/web-service-tests - All Test Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ly.doan/web-service-test/Reports/20211215_140301/Folder B/web-service-tests - All Test Cases/20211215_140312"/>
+         <property name="logFiles" value="/Users/ly.doan/web-service-test/Reports/20211215_140301/Folder B/web-service-tests - All Test Cases/20211215_140312/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ly.doan - 192.168.1.2"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Create a new user" time="3.13" classname="Test Cases/Create a new user" status="PASSED">
+         <system-out><![CDATA[2021-12-15 14:04:03 - [TEST_CASE][PASSED] - Test Cases/Create a new user: Test Cases/Create a new user
+
+2021-12-15 14:04:04 - [TEST_STEP][PASSED] - sample.Common.createNewUser(age, username, password, gender, 200): sample.Common.createNewUser is PASSED
+
+2021-12-15 14:04:06 - [MESSAGE][INFO] - HAR: /Users/ly.doan/web-service-test/Reports/20211215_140301/Folder B/web-service-tests - All Test Cases/20211215_140312/requests/main/0.har
+
+2021-12-15 14:04:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-12-15 14:04:06 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-12-15 14:04:06 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-12-15 14:04:06 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2021-12-15 14:04:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2021-12-15 14:04:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2021-12-15 14:04:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2021-12-15 14:04:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2021-12-15 14:04:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:06 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-12-15 14:04:06 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-12-15 14:04:06 - [MESSAGE][PASSED] - sample.Common.createNewUser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Find user by ID" time="3.126" classname="Test Cases/Find user by ID" status="PASSED">
+         <system-out><![CDATA[2021-12-15 14:04:06 - [TEST_CASE][PASSED] - Test Cases/Find user by ID: Test Cases/Find user by ID
+
+2021-12-15 14:04:07 - [TEST_STEP][PASSED] - id = sample.Common.createNewUser(age, username, password, gender, 200): sample.Common.createNewUser is PASSED
+
+2021-12-15 14:04:08 - [MESSAGE][INFO] - HAR: /Users/ly.doan/web-service-test/Reports/20211215_140301/Folder B/web-service-tests - All Test Cases/20211215_140312/requests/main/1.har
+
+2021-12-15 14:04:08 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-12-15 14:04:08 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-12-15 14:04:08 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-12-15 14:04:08 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2021-12-15 14:04:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2021-12-15 14:04:08 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2021-12-15 14:04:08 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2021-12-15 14:04:08 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2021-12-15 14:04:08 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:08 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-12-15 14:04:08 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-12-15 14:04:08 - [MESSAGE][PASSED] - sample.Common.createNewUser is PASSED
+
+2021-12-15 14:04:08 - [TEST_STEP][PASSED] - sample.Common.findUserById(id, age, username, password, gender, 200): sample.Common.findUserById is PASSED
+
+2021-12-15 14:04:09 - [MESSAGE][INFO] - HAR: /Users/ly.doan/web-service-test/Reports/20211215_140301/Folder B/web-service-tests - All Test Cases/20211215_140312/requests/main/2.har
+
+2021-12-15 14:04:09 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-12-15 14:04:09 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-12-15 14:04:09 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-12-15 14:04:09 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2021-12-15 14:04:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2021-12-15 14:04:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2021-12-15 14:04:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2021-12-15 14:04:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2021-12-15 14:04:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:10 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-12-15 14:04:10 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-12-15 14:04:10 - [MESSAGE][PASSED] - sample.Common.findUserById is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-15 14:04:03 - [TEST_SUITE][PASSED] - web-service-tests - All Test Cases: Test Cases/Find user by ID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="7.879" skipped="0" timestamp="2021-12-15 14:04:20" hostname="ly.doan - 192.168.1.2" id="Test Suites/Folder A/Folder A1/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ly.doan/web-service-test/Reports/20211215_140301/Folder A/Folder A1/New Test Suite/20211215_140332"/>
+         <property name="logFiles" value="/Users/ly.doan/web-service-test/Reports/20211215_140301/Folder A/Folder A1/New Test Suite/20211215_140332/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ly.doan - 192.168.1.2"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Find user by ID" time="6.555" classname="Test Cases/Find user by ID" status="PASSED">
+         <system-out><![CDATA[2021-12-15 14:04:21 - [TEST_CASE][PASSED] - Test Cases/Find user by ID: Test Cases/Find user by ID
+
+2021-12-15 14:04:22 - [TEST_STEP][PASSED] - id = sample.Common.createNewUser(age, username, password, gender, 200): sample.Common.createNewUser is PASSED
+
+2021-12-15 14:04:26 - [MESSAGE][INFO] - HAR: /Users/ly.doan/web-service-test/Reports/20211215_140301/Folder A/Folder A1/New Test Suite/20211215_140332/requests/main/0.har
+
+2021-12-15 14:04:26 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-12-15 14:04:26 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-12-15 14:04:26 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-12-15 14:04:26 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2021-12-15 14:04:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2021-12-15 14:04:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2021-12-15 14:04:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2021-12-15 14:04:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2021-12-15 14:04:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:26 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-12-15 14:04:26 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-12-15 14:04:26 - [MESSAGE][PASSED] - sample.Common.createNewUser is PASSED
+
+2021-12-15 14:04:26 - [TEST_STEP][PASSED] - sample.Common.findUserById(id, age, username, password, gender, 200): sample.Common.findUserById is PASSED
+
+2021-12-15 14:04:27 - [MESSAGE][INFO] - HAR: /Users/ly.doan/web-service-test/Reports/20211215_140301/Folder A/Folder A1/New Test Suite/20211215_140332/requests/main/1.har
+
+2021-12-15 14:04:27 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-12-15 14:04:28 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-12-15 14:04:28 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-12-15 14:04:28 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2021-12-15 14:04:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2021-12-15 14:04:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2021-12-15 14:04:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2021-12-15 14:04:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2021-12-15 14:04:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-12-15 14:04:28 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-12-15 14:04:28 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-12-15 14:04:28 - [MESSAGE][PASSED] - sample.Common.findUserById is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-15 14:04:20 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Find user by ID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
